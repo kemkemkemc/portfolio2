@@ -1,0 +1,51 @@
+.btn {
+  display: inline-block;
+  padding-top: 10px;
+  padding-right: 62px;
+  padding-bottom: 10px;
+  padding-left: 36px;
+  margin: 0px;
+  background-color: #fff;
+  background-image: none;
+  background-size: contain;
+  color: #424242;
+  text-decoration: none;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #424242;
+  border-radius: 0px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-appearance: none;
+  line-height: 1.6;
+  position: relative;
+  text-align: left;
+}
+
+.btn:hover {
+  background-color: #424242;
+  color: #fff;
+}
+
+.btn svg {
+  width: 24px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: auto;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  stroke: #424242;
+  stroke-width: 2px;
+  right: 8px;
+}
+
+.btn:hover svg {
+  stroke: #fff;
+}
+/*# sourceMappingURL=style.css.map */
